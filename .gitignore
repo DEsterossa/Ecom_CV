@@ -1,0 +1,75 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data files (большие файлы данных)
+data/train_processed/
+data/train_raw/magick/images/
+data/test_dataset/
+*.pth
+*.pt
+*.h5
+*.pkl
+*.pickle
+
+# Outputs
+outputs/experiments/*/u2netp_best.pth
+outputs/experiments/*/submission.csv
+
+# Logs
+*.log
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Model weights (сохраняем только структуру)
+U-2-Net/saved_models/*.pth
+U-2-Net/saved_models/*.pkl
+
+# Keep structure but ignore large files
+!U-2-Net/saved_models/.gitkeep
+
